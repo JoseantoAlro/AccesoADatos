@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class ContadorPalabras {
 	
 	
-	public int contar(String ruta, String palabra) throws FileNotFoundException  {
+	public static int contar(String ruta, String palabra) throws FileNotFoundException  {
 		int cont=0;
 		Scanner in=null;
 		try {

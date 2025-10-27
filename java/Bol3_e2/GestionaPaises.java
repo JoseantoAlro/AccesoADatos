@@ -20,9 +20,6 @@ public class GestionaPaises {
 		
 
 		logger.info(rp.toString());
-		
-		
-		
-		
+
 	}
 }

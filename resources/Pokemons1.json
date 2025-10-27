@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "tipo": "Planta",
+    "altura_m": 0.7,
+    "peso_kg": 6.9,
+    "habilidadPrincipal": "\"Espesura;Clorofila\"",
+    "evoluciona_a": "Ivysaur"
+  },
+  {
+    "id": 2,
+    "nombre": "Ivysaur",
+    "tipo": "Planta",
+    "altura_m": 1.0,
+    "peso_kg": 13.0,
+    "habilidadPrincipal": "\"Espesura;Clorofila\"",
+    "evoluciona_a": "Venusaur"
+  },
+  {
+    "id": 3,
+    "nombre": "Venusaur",
+    "tipo": "Planta",
+    "altura_m": 2.0,
+    "peso_kg": 100.0,
+    "habilidadPrincipal": "\"Espesura;Clorofila\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 4,
+    "nombre": "Charmander",
+    "tipo": "Fuego",
+    "altura_m": 0.6,
+    "peso_kg": 8.5,
+    "habilidadPrincipal": "\"Mar Llamas;Poder Solar\"",
+    "evoluciona_a": "Charmeleon"
+  },
+  {
+    "id": 5,
+    "nombre": "Charmeleon",
+    "tipo": "Fuego",
+    "altura_m": 1.1,
+    "peso_kg": 19.0,
+    "habilidadPrincipal": "\"Mar Llamas;Poder Solar\"",
+    "evoluciona_a": "Charizard"
+  },
+  {
+    "id": 6,
+    "nombre": "Charizard",
+    "tipo": "\"Fuego/Volador\"",
+    "altura_m": 1.7,
+    "peso_kg": 90.5,
+    "habilidadPrincipal": "\"Mar Llamas;Poder Solar\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 7,
+    "nombre": "Squirtle",
+    "tipo": "Agua",
+    "altura_m": 0.5,
+    "peso_kg": 9.0,
+    "habilidadPrincipal": "\"Torrente;Cura Lluvia\"",
+    "evoluciona_a": "Wartortle"
+  },
+  {
+    "id": 8,
+    "nombre": "Wartortle",
+    "tipo": "Agua",
+    "altura_m": 1.0,
+    "peso_kg": 22.5,
+    "habilidadPrincipal": "\"Torrente;Cura Lluvia\"",
+    "evoluciona_a": "Blastoise"
+  },
+  {
+    "id": 9,
+    "nombre": "Blastoise",
+    "tipo": "Agua",
+    "altura_m": 1.6,
+    "peso_kg": 85.5,
+    "habilidadPrincipal": "\"Torrente;Cura Lluvia\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 10,
+    "nombre": "Pikachu",
+    "tipo": "Eléctrico",
+    "altura_m": 0.4,
+    "peso_kg": 6.0,
+    "habilidadPrincipal": "\"Electricidad Estática;Pararrayos\"",
+    "evoluciona_a": "Raichu"
+  },
+  {
+    "id": 11,
+    "nombre": "Raichu",
+    "tipo": "Eléctrico",
+    "altura_m": 0.8,
+    "peso_kg": 30.0,
+    "habilidadPrincipal": "\"Electricidad Estática;Pararrayos\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 12,
+    "nombre": "Sandshrew",
+    "tipo": "Normal",
+    "altura_m": 0.6,
+    "peso_kg": 12.0,
+    "habilidadPrincipal": "\"Funda;Arena\"",
+    "evoluciona_a": "Sandslash"
+  },
+  {
+    "id": 13,
+    "nombre": "Sandslash",
+    "tipo": "Normal",
+    "altura_m": 1.0,
+    "peso_kg": 29.5,
+    "habilidadPrincipal": "\"Funda;Arena\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 14,
+    "nombre": "Nidoran♀",
+    "tipo": "Veneno",
+    "altura_m": 0.4,
+    "peso_kg": 7.0,
+    "habilidadPrincipal": "\"Punto Tóxico;Rivalidad\"",
+    "evoluciona_a": "Nidorina"
+  },
+  {
+    "id": 15,
+    "nombre": "Nidorina",
+    "tipo": "Veneno",
+    "altura_m": 0.8,
+    "peso_kg": 20.0,
+    "habilidadPrincipal": "\"Punto Tóxico;Rivalidad\"",
+    "evoluciona_a": "Nidoqueen"
+  },
+  {
+    "id": 16,
+    "nombre": "Nidoqueen",
+    "tipo": "Veneno/Tierra",
+    "altura_m": 1.3,
+    "peso_kg": 60.0,
+    "habilidadPrincipal": "\"Punto Tóxico;Rivalidad\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 17,
+    "nombre": "Nidoran♂",
+    "tipo": "Veneno",
+    "altura_m": 0.5,
+    "peso_kg": 9.0,
+    "habilidadPrincipal": "\"Punto Tóxico;Rivalidad\"",
+    "evoluciona_a": "Nidorino"
+  },
+  {
+    "id": 18,
+    "nombre": "Nidorino",
+    "tipo": "Veneno",
+    "altura_m": 0.9,
+    "peso_kg": 19.5,
+    "habilidadPrincipal": "\"Punto Tóxico;Rivalidad\"",
+    "evoluciona_a": "Nidoking"
+  },
+  {
+    "id": 19,
+    "nombre": "Nidoking",
+    "tipo": "Veneno/Tierra",
+    "altura_m": 1.4,
+    "peso_kg": 62.0,
+    "habilidadPrincipal": "\"Punto Tóxico;Rivalidad\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 20,
+    "nombre": "Clefairy",
+    "tipo": "Hada",
+    "altura_m": 0.6,
+    "peso_kg": 7.5,
+    "habilidadPrincipal": "\"Piel Fina;Amuleto\"",
+    "evoluciona_a": "Clefable"
+  },
+  {
+    "id": 21,
+    "nombre": "Clefable",
+    "tipo": "Hada",
+    "altura_m": 1.3,
+    "peso_kg": 40.0,
+    "habilidadPrincipal": "\"Piel Fina;Amuleto\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 22,
+    "nombre": "Vulpix",
+    "tipo": "Fuego",
+    "altura_m": 0.6,
+    "peso_kg": 9.9,
+    "habilidadPrincipal": "\"Absorbe Fuego;Mar Llamas\"",
+    "evoluciona_a": "Ninetales"
+  },
+  {
+    "id": 23,
+    "nombre": "Ninetales",
+    "tipo": "Fuego",
+    "altura_m": 1.1,
+    "peso_kg": 19.9,
+    "habilidadPrincipal": "\"Absorbe Fuego;Mar Llamas\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 24,
+    "nombre": "Jigglypuff",
+    "tipo": "Normal/Hada",
+    "altura_m": 0.5,
+    "peso_kg": 5.5,
+    "habilidadPrincipal": "\"Piel Fina;Canto\"",
+    "evoluciona_a": "Wigglytuff"
+  },
+  {
+    "id": 25,
+    "nombre": "Wigglytuff",
+    "tipo": "Normal/Hada",
+    "altura_m": 1.0,
+    "peso_kg": 12.0,
+    "habilidadPrincipal": "\"Piel Fina;Canto\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 26,
+    "nombre": "Zubat",
+    "tipo": "Veneno/Volador",
+    "altura_m": 0.8,
+    "peso_kg": 7.5,
+    "habilidadPrincipal": "\"Insonorizar;Cuerpo Maldito\"",
+    "evoluciona_a": "Golbat"
+  },
+  {
+    "id": 27,
+    "nombre": "Golbat",
+    "tipo": "Veneno/Volador",
+    "altura_m": 1.6,
+    "peso_kg": 55.0,
+    "habilidadPrincipal": "\"Insonorizar;Cuerpo Maldito\"",
+    "evoluciona_a": "Crobat"
+  },
+  {
+    "id": 28,
+    "nombre": "Crobat",
+    "tipo": "Veneno/Volador",
+    "altura_m": 1.8,
+    "peso_kg": 75.0,
+    "habilidadPrincipal": "\"Insonorizar;Cuerpo Maldito\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 29,
+    "nombre": "Oddish",
+    "tipo": "Planta/Veneno",
+    "altura_m": 0.5,
+    "peso_kg": 5.4,
+    "habilidadPrincipal": "\"Clorofila;Espesura\"",
+    "evoluciona_a": "Gloom"
+  },
+  {
+    "id": 30,
+    "nombre": "Gloom",
+    "tipo": "Planta/Veneno",
+    "altura_m": 0.8,
+    "peso_kg": 8.6,
+    "habilidadPrincipal": "\"Clorofila;Espesura\"",
+    "evoluciona_a": "Vileplume"
+  },
+  {
+    "id": 31,
+    "nombre": "Vileplume",
+    "tipo": "Planta/Veneno",
+    "altura_m": 1.2,
+    "peso_kg": 18.6,
+    "habilidadPrincipal": "\"Clorofila;Espesura\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 32,
+    "nombre": "Paras",
+    "tipo": "Bicho/Planta",
+    "altura_m": 0.3,
+    "peso_kg": 5.4,
+    "habilidadPrincipal": "\"Efecto Espora;Técnico\"",
+    "evoluciona_a": "Parasect"
+  },
+  {
+    "id": 33,
+    "nombre": "Parasect",
+    "tipo": "Bicho/Planta",
+    "altura_m": 1.0,
+    "peso_kg": 29.5,
+    "habilidadPrincipal": "\"Efecto Espora;Técnico\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 34,
+    "nombre": "Venonat",
+    "tipo": "Bicho/Veneno",
+    "altura_m": 1.0,
+    "peso_kg": 30.0,
+    "habilidadPrincipal": "\"Cuerpo Maldito;Ojo Compuesto\"",
+    "evoluciona_a": "Venomoth"
+  },
+  {
+    "id": 35,
+    "nombre": "Venomoth",
+    "tipo": "Bicho/Veneno",
+    "altura_m": 1.5,
+    "peso_kg": 12.5,
+    "habilidadPrincipal": "\"Cuerpo Maldito;Ojo Compuesto\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 36,
+    "nombre": "Diglett",
+    "tipo": "Tierra",
+    "altura_m": 0.2,
+    "peso_kg": 0.8,
+    "habilidadPrincipal": "\"Excavar;Arena\"",
+    "evoluciona_a": "Dugtrio"
+  },
+  {
+    "id": 37,
+    "nombre": "Dugtrio",
+    "tipo": "Tierra",
+    "altura_m": 0.7,
+    "peso_kg": 33.3,
+    "habilidadPrincipal": "\"Excavar;Arena\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 38,
+    "nombre": "Meowth",
+    "tipo": "Normal",
+    "altura_m": 0.4,
+    "peso_kg": 4.2,
+    "habilidadPrincipal": "\"Recogida;Cobrizo\"",
+    "evoluciona_a": "Persian"
+  },
+  {
+    "id": 39,
+    "nombre": "Persian",
+    "tipo": "Normal",
+    "altura_m": 1.0,
+    "peso_kg": 32.0,
+    "habilidadPrincipal": "\"Recogida;Cobrizo\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 40,
+    "nombre": "Psyduck",
+    "tipo": "Agua",
+    "altura_m": 0.8,
+    "peso_kg": 19.6,
+    "habilidadPrincipal": "\"Nado Rápido;Humedad\"",
+    "evoluciona_a": "Golduck"
+  },
+  {
+    "id": 41,
+    "nombre": "Golduck",
+    "tipo": "Agua",
+    "altura_m": 1.7,
+    "peso_kg": 76.6,
+    "habilidadPrincipal": "\"Nado Rápido;Humedad\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 42,
+    "nombre": "Mankey",
+    "tipo": "Lucha",
+    "altura_m": 0.5,
+    "peso_kg": 28.0,
+    "habilidadPrincipal": "\"Furia;Espíritu Vital\"",
+    "evoluciona_a": "Primeape"
+  },
+  {
+    "id": 43,
+    "nombre": "Primeape",
+    "tipo": "Lucha",
+    "altura_m": 1.0,
+    "peso_kg": 32.0,
+    "habilidadPrincipal": "\"Furia;Espíritu Vital\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 44,
+    "nombre": "Growlithe",
+    "tipo": "Fuego",
+    "altura_m": 0.7,
+    "peso_kg": 19.0,
+    "habilidadPrincipal": "\"Intimidación;Mar Llamas\"",
+    "evoluciona_a": "Arcanine"
+  },
+  {
+    "id": 45,
+    "nombre": "Arcanine",
+    "tipo": "Fuego",
+    "altura_m": 1.9,
+    "peso_kg": 155.0,
+    "habilidadPrincipal": "\"Intimidación;Mar Llamas\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 46,
+    "nombre": "Poliwag",
+    "tipo": "Agua",
+    "altura_m": 0.6,
+    "peso_kg": 12.4,
+    "habilidadPrincipal": "\"Nado Rápido;Absorbe Agua\"",
+    "evoluciona_a": "Poliwhirl"
+  },
+  {
+    "id": 47,
+    "nombre": "Poliwhirl",
+    "tipo": "Agua",
+    "altura_m": 1.0,
+    "peso_kg": 20.0,
+    "habilidadPrincipal": "\"Nado Rápido;Absorbe Agua\"",
+    "evoluciona_a": "Poliwrath"
+  },
+  {
+    "id": 48,
+    "nombre": "Poliwrath",
+    "tipo": "Agua/Lucha",
+    "altura_m": 1.3,
+    "peso_kg": 54.0,
+    "habilidadPrincipal": "\"Nado Rápido;Absorbe Agua\"",
+    "evoluciona_a": "sinValor"
+  },
+  {
+    "id": 49,
+    "nombre": "Abra",
+    "tipo": "Psíquico",
+    "altura_m": 0.9,
+    "peso_kg": 19.5,
+    "habilidadPrincipal": "\"Sincronía;Levitación\"",
+    "evoluciona_a": "Kadabra"
+  },
+  {
+    "id": 50,
+    "nombre": "Kadabra",
+    "tipo": "Psíquico",
+    "altura_m": 1.3,
+    "peso_kg": 56.5,
+    "habilidadPrincipal": "\"Sincronía;Levitación\"",
+    "evoluciona_a": "Alakazam"
+  }
+]
