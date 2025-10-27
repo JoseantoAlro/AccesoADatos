@@ -3,49 +3,56 @@ package TowerGPT;
 import java.util.Objects;
 
 public class InteraccionAgente {
-	private int numValoracioesPositivas;
-	private TipoAgente tAgente;
+	private int numValoracionesPositivas;
+	private TipoAgente Agente;
 	private String identificador, peticion, respuesta;
 	private double tiempoEjecucion, porcentajeAcierto;
-	
-	//constructor
 
-	public InteraccionAgente(int numValoracioesPositivas, TipoAgente tAgente, String identificador, String peticion,
+	// constructor
+
+	public InteraccionAgente(int numValoracioesPositivas, TipoAgente Agente, String identificador, String peticion,
 			String respuesta, double tiempoEjecucion, double porcentajeAcierto) {
 		super();
-		this.numValoracioesPositivas = numValoracioesPositivas;
-		this.tAgente = tAgente;
-		this.identificador = identificador;
+		this.numValoracionesPositivas = numValoracioesPositivas;
+		this.Agente = Agente;
 		this.peticion = peticion;
 		this.respuesta = respuesta;
 		this.tiempoEjecucion = tiempoEjecucion;
 		this.porcentajeAcierto = porcentajeAcierto;
 	}
-	
-	//getters y setters
 
-	public int getNumValoracioesPositivas() {
-		return numValoracioesPositivas;
+	public InteraccionAgente(TipoAgente agente, String peticion, String respuesta) {
+		super();
+		Agente = agente;
+		this.peticion = peticion;
+		this.respuesta = respuesta;
 	}
 
-	public void setNumValoracioesPositivas(int numValoracioesPositivas) {
-		this.numValoracioesPositivas = numValoracioesPositivas;
+	public String calcularIdentificador() {  //identificador generado automaticamente
+		int hash = Objects.hash(numValoracionesPositivas, peticion, porcentajeAcierto, respuesta, Agente,
+				tiempoEjecucion);
+		return String.valueOf(hash);
+	}
+	// getters y setters
+
+	public int getNumValoracionesPositivas() {
+		return numValoracionesPositivas;
 	}
 
-	public TipoAgente gettAgente() {
-		return tAgente;
+	public void setNumValoracionesPositivas(int numValoracioesPositivas) {
+		this.numValoracionesPositivas = numValoracioesPositivas;
 	}
 
-	public void settAgente(TipoAgente tAgente) {
-		this.tAgente = tAgente;
+	public TipoAgente getAgente() {
+		return Agente;
+	}
+
+	public void setAgente(TipoAgente tAgente) {
+		this.Agente = tAgente;
 	}
 
 	public String getIdentificador() {
-		return identificador;
-	}
-
-	public void setIdentificador(String identificador) {
-		this.identificador = identificador;
+		return this.calcularIdentificador();
 	}
 
 	public String getPeticion() {
@@ -79,22 +86,13 @@ public class InteraccionAgente {
 	public void setPorcentajeAcierto(double porcentajeAcierto) {
 		this.porcentajeAcierto = porcentajeAcierto;
 	}
-	
-	
-	//to string hashcode y equals
+
+	// to string y equals
 	@Override
 	public String toString() {
-		return "InteraccionAgente [numValoracioesPositivas=" + numValoracioesPositivas + ", tAgente=" + tAgente
+		return "InteraccionAgente [numValoracioesPositivas=" + numValoracionesPositivas + ", tAgente=" + Agente
 				+ ", identificador=" + identificador + ", peticion=" + peticion + ", respuesta=" + respuesta
 				+ ", tiempoEjecucion=" + tiempoEjecucion + ", porcentajeAcierto=" + porcentajeAcierto + "]";
-	}
-
-	
-	
-	@Override
-	public int hashCode() {
-		return Objects.hash(identificador, numValoracioesPositivas, peticion, porcentajeAcierto, respuesta, tAgente,
-				tiempoEjecucion);
 	}
 
 	@Override
@@ -107,16 +105,11 @@ public class InteraccionAgente {
 			return false;
 		InteraccionAgente other = (InteraccionAgente) obj;
 		return Objects.equals(identificador, other.identificador)
-				&& numValoracioesPositivas == other.numValoracioesPositivas && Objects.equals(peticion, other.peticion)
+				&& numValoracionesPositivas == other.numValoracionesPositivas
+				&& Objects.equals(peticion, other.peticion)
 				&& Double.doubleToLongBits(porcentajeAcierto) == Double.doubleToLongBits(other.porcentajeAcierto)
-				&& Objects.equals(respuesta, other.respuesta) && tAgente == other.tAgente
+				&& Objects.equals(respuesta, other.respuesta) && Agente == other.Agente
 				&& Double.doubleToLongBits(tiempoEjecucion) == Double.doubleToLongBits(other.tiempoEjecucion);
-	}
-
-	
-	
-	public void interaccionAgente() {
-
 	}
 
 }
