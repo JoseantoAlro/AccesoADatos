@@ -1,5 +1,7 @@
 package XML;
 
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,6 +12,8 @@ public class GestionaEmpleados {
 	public static void main(String[]args) throws Exception {
 		XMLDomEmpleados xmlEmp = new XMLDomEmpleados();
 		Empleado e = xmlEmp.leerEmpleadoDesdeXML("empleado.xml");
-		logger.info(e.toString());
+		logger.debug(e.toString());
+		
+		List<Empleado> es = xmlEmp.leerEmpleadosDesdeXML("empleados.xml");
 	}
 }
