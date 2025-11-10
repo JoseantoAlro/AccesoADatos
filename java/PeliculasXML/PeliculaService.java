@@ -9,6 +9,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 public class PeliculaService {
+	private String rutaResources="src\\main\\resources\\";
 	private  XMLDomPeliculas archivoXML;
 	private RepositorioPeliculas repo;
 	

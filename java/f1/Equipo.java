@@ -3,24 +3,30 @@ package f1;
 import java.util.List;
 
 public class Equipo {
-	private int id;
+	private String id;
 	private String nombre;
 	private int puntos;
 	private List<Piloto> pilotos;
 
-	public Equipo(int id, String nombre, int puntos, List<Piloto> pilotos) {
+	public Equipo(String id, String nombre, int puntos, List<Piloto> pilotos) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
 		this.puntos = puntos;
 		this.pilotos = pilotos;
 	}
+	
 
-	public int getId() {
+	public Equipo() {
+		super();
+	}
+
+
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
@@ -43,7 +49,7 @@ public class Equipo {
 	public List<Piloto> getPilotos() {
 		return pilotos;
 	}
-
+	
 	public void setPilotos(List<Piloto> pilotos) {
 		this.pilotos = pilotos;
 	}
@@ -53,6 +59,9 @@ public class Equipo {
 		return "Equipo [id=" + id + ", nombre=" + nombre + ", puntos=" + puntos + ", pilotos=" + pilotos + "]";
 	}
 	
-	
+	public void addPiloto(Piloto p) {
+		this.pilotos.add(p);
+	}
+
 
 }

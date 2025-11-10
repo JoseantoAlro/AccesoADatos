@@ -1,12 +1,12 @@
 package f1;
 
 public class Piloto {
-	private int id;
+	private String id;
 	private String nombre;
 	private int puntos;
 	private int idequipo;
 	private String pais;
-	public Piloto(int id, String nombre, int puntos, int idequipo, String pais) {
+	public Piloto(String id, String nombre, int puntos, int idequipo, String pais) {
 		super();
 		this.id = id;
 		this.nombre = nombre;
@@ -14,10 +14,15 @@ public class Piloto {
 		this.idequipo = idequipo;
 		this.pais = pais;
 	}
-	public int getId() {
+	
+	public Piloto() {
+		super();
+	}
+
+	public String getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getNombre() {
