@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "enVenta": true,
+    "nombre": "mesa",
+    "precio": 10.0,
+    "stock": 4
+  }
+]
