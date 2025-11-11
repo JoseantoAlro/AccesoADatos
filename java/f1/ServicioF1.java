@@ -137,9 +137,7 @@ public class ServicioF1 {
 	}
 	
 	public void escribirXML(String ruta) {
-		for (Equipo e: repo.getEquipos()) {
-			gest.escribeEquiposEnXML(Rutares+ruta, repo.getEquipos());
-		}
+		gest.escribeEquiposEnXML(Rutares+ruta, repo.getEquipos());
 	}
 	
 	
