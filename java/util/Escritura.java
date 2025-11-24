@@ -109,7 +109,7 @@ public class Escritura {
 		}
 		
      
-		// El identificador lo vamos a crear como un atributo de la etiqueta empleado
+		// El identificador lo vamos a crear como un atributo de la etiqueta
 		padre.setAttribute("identificador", e.getId());
 	}
 
@@ -136,7 +136,7 @@ public class Escritura {
 		DocumentBuilder builder = factoria.newDocumentBuilder();
 		DOMImplementation implementacion = builder.getDOMImplementation();
 		documento = implementacion.createDocument(null, nombreRaiz, null);
-		// Primer parámetro uri: si null no está validado por ninguna ruta		??no se que hace preguntar a soraya no lo he usao de todas maneras
+		// Primer parámetro uri: si null no está validado por ninguna ruta		
 		// segundo parámetro: nombre fichero
 		// tercer parámetro: document type Por defecto null
 		return documento;
@@ -214,7 +214,7 @@ public class Escritura {
 	
 	
 	//JsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJsonJson
-	//NO HAY QUE TOCAR NADA DE ESTA FUNCION PARA QUE ESCRIBA (cambiar el nombre del metodo estaria bien)
+	//NO HAY QUE TOCAR NADA DE ESTA FUNCION PARA QUE ESCRIBA el tipo de lista si (cambiar el nombre del metodo estaria bien)
 	public void escribeProductosJson(List<Producto> prod, String rutajson) {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		String json = gson.toJson(prod);

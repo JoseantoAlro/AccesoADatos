@@ -30,7 +30,7 @@ public class Lectura {
 	
 	//XMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLXMLMLXMLXMLXMLXMLXMLXMLXMLXMLXMLMLXMLXMLXMLXMLXMLXMLXMLXMLXMLMLXMLXMLXMLXMLXMLXMLXMLXMLXMLML
 	//lectura desde XML en archivo gestionaficheros
-	//esta parte es igual pasa del fichero a un objeto documento
+	//esta parte NO SE TOCA pasa del fichero a un objeto documento
 	public Document getDocumentFromXML(String rutafichero) { 
 		File file = new File(rutafichero);
 		Document documento = null;
@@ -92,6 +92,8 @@ public class Lectura {
 		for (int i = 0; i < listaTrabajadoresaux.getLength(); i++) {
 			listatrabajadores.add(getTrabajador((Element) listaTrabajadoresaux.item(i)));			//casting para pasar de nodos a elementos
 		}
+		
+		String atributo = elemento.getAttribute("identificadorPiloto"); //en caso de tener un atributo
 		
 		c.setId(id);
 		c.setNombre(nombre);
@@ -169,7 +171,11 @@ public class Lectura {
 				System.out.println("Error al leer pokemons"+e.getMessage());
 			}
 		return pkm;
-	}
+	} 
+	
+	
+	
+	
 	
 	
 	//pasa de Json a lista de objetos Json
